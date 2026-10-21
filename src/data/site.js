@@ -83,6 +83,25 @@ export const projects = [
     ],
     tech: ["HTML", "CSS", "JavaScript"],
   },
+    {
+    id: "school-portal",
+    name: "Greenfield Academy School Portal",
+    kind: "School portal website",
+    badge: "New",
+    accent: "#14532d",
+    accent2: "#bbf7d0",
+    shot: "images/shot-school-portal.jpg",
+    live: "https://school-portal-2wkm.onrender.com",
+    code: "https://github.com/ugocity04-create/school-portal",
+    problem:
+      "Schools lose time on paper registers, scattered results and fee chasing. This portal gives admin, teachers, students and parents each their own login, so results, attendance, homework and fees are all in one place.",
+    highlights: [
+      "Four logins (admin, teacher, student, parent), each seeing only what they should",
+      "Teachers take the register and enter scores; students and parents see progress charts and report cards",
+      "Online homework: students open it and submit, teachers grade it in the portal",
+    ],
+    tech: ["React", "Django", "PostgreSQL", "Python"],
+  },
 ];
 
 // ------------------------------------------------------------
